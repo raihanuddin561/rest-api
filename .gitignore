@@ -1,0 +1,17 @@
+server
+.server
+settings
+.settings
+.classpath
+.springBeans
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+server/
