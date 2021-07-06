@@ -11,5 +11,6 @@ public interface ProjectInfoService {
 	public List<ProjectInfo> getProjectInfo();
 	public ProjectInfo saveProject(ProjectInfo projectInfo);
 	public ProjectInfo projectById(String id);
+	public void deleteByProjectId(ProjectInfo pInfo);
 
 }

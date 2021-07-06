@@ -31,6 +31,13 @@ public class ProjectInfoServiceImpl implements ProjectInfoService {
 		return projectRepo.findByProjectId(id);
 	}
 
+	@Override
+	public void deleteByProjectId(ProjectInfo info) {
+		// TODO Auto-generated method stub
+		projectRepo.delete(info);
+		
+	}
+
 	
 
 }
