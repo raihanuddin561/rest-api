@@ -85,7 +85,8 @@ class ProjectComponent extends Component {
                                 <td>{project.projectId}</td>
                             <td>{project.projectName}</td>
                             <td>{project.status.toString()}</td>
-                            <td><button className="btn btn-success" onClick={()=>this.updateProject(project.id)}>Update</button></td>
+                            <td><button className="btn btn-success" onClick={()=>this.viewProject(project.id)}>View</button></td>
+                            <td><button className="btn btn-success" onClick={()=>this.updateProject(project.id)}>edit</button></td>
                             <td><button className="btn btn-danger" onClick={()=>this.deleteProject(project.id)}>Delete</button></td>
                             
                             </tr>

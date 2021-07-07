@@ -18,7 +18,7 @@ class ProjectService{
         return axios.put(`${api_url}/projects/${id}`,projects)
     }
 
-    postTodo(projects){
+    postProject(projects){
         return axios.post(`${api_url}/projects/`,projects)
     }
 }
